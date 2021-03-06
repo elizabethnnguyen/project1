@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Coffee Shop</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css" media="screen">
+</head>
+
+<body>
+
+  <section class="main-content">
+
+
+    <div class="main-image">
+      <img src="assets/coffeeshop-empty.png" class="base">
+
+      <div class="image-container">
+
+
+        <audio id="coffee-bean-bag-shake">
+          <source src="assets/coffeebeanbag.mp3"></source>
+          <source src="assets/coffeebeanbag.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="cup-on-tabletop">
+          <source src="assets/cups.mp3"></source>
+          <source src="assets/cups.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="utensil-caddy">
+          <source src="assets/caddy.mp3"></source>
+          <source src="assets/caddy.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="sidewalk-sign-tap-writing">
+          <source src="assets/sidewalksign.mp3"></source>
+          <source src="assets/sidewalksign.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="cash-register">
+          <source src="assets/register.mp3"></source>
+          <source src="assets/register.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="squeaky-gate">
+          <source src="assets/gate.mp3"></source>
+          <source src="assets/gate.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="bird-chirp">
+          <source src="assets/bird.mp3"></source>
+          <source src="assets/bird.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="espresso-machine">
+          <source src="assets/machine.mp3"></source>
+          <source src="assets/machine.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="background-sounds" autoplay loop>
+          <source src="assets/backgroundjazz.mp3"></source>
+          <source src="assets/backgroundjazz.ogg"></source>
+          Audio not supported on browser
+        </audio>
+        <audio id="background-sounds" autoplay loop>
+          <source src="assets/backgroundnoise.mp3"></source>
+          <source src="assets/backgroundnoise.ogg"></source>
+          Audio not supported on browser
+        </audio>
+
+
+        <div class="base-image">
+          <img onmouseover="PlaySound('coffee-bean-bag-shake')" onmouseout="StopSound('coffee-bean-bag-shake')" src="assets/beanbags.png" class="coffeebeanbags">
+        </div>
+
+        <div class="hovered">
+          <img src="assets/beanbags-hovered.png" class="coffeebeanbags-hovered">
+        </div>
+      </div>
+
+      <div class="image-container2">
+        <div class="base-image">
+          <img onmouseover="PlaySound('cup-on-tabletop')" onmouseout="StopSound('cup-on-tabletop')" src="assets/cups.png" class="cups">
+        </div>
+
+        <div class="hovered2">
+          <img src="assets/cups-hovered.png" class="cups-hovered">
+        </div>
+      </div>
+
+      <div class="image-container3">
+        <div class="base-image">
+          <img onmouseover="PlaySound('utensil-caddy')" onmouseout="StopSound('utensil-caddy')" src="assets/smallitemholder.png" class="smallitems">
+        </div>
+
+        <div class="hovered3">
+          <img src="assets/smallitemholder-hovered.png" class="smallitems-hovered">
+        </div>
+      </div>
+
+      <div class="image-container4">
+        <div class="base-image">
+          <img onmouseover="PlaySound('sidewalk-sign-tap-writing')" onmouseout="StopSound('sidewalk-sign-tap-writing')" src="assets/sidewalksign.png" class="sidewalksign">
+        </div>
+
+        <div class="hovered4">
+          <img src="assets/sidewalksign-hovered.png" class="sidewalksign-hovered">
+        </div>
+      </div>
+
+      <div class="image-container5">
+        <div class="base-image">
+          <img onmouseover="PlaySound('cash-register')" onmouseout="StopSound('cash-register')" src="assets/register.png" class="register">
+        </div>
+
+        <div class="hovered5">
+          <img src="assets/register-hovered.png" class="register-hovered">
+        </div>
+      </div>
+
+      <div class="image-container6">
+        <div class="base-image">
+          <img onmouseover="PlaySound('squeaky-gate')" onmouseout="StopSound('squeaky-gate')" src="assets/gate.png" class="gate">
+        </div>
+
+        <div class="hovered6">
+          <img src="assets/gate-hovered.png" class="gate-hovered">
+        </div>
+      </div>
+
+      <div class="image-container7">
+        <div class="base-image">
+          <img onmouseover="PlaySound('bird-chirp')" onmouseout="StopSound('bird-chirp')" src="assets/bird.png" class="bird">
+        </div>
+        <div class="hovered7">
+          <img src="assets/bird-hovered.png" class="bird-hovered">
+        </div>
+      </div>
+
+      <div class="image-container8">
+        <div class="base-image">
+          <img onmouseover="PlaySound('espresso-machine')" onmouseout="StopSound('espresso-machine')" src="assets/coffeemachine.png" class="coffeemachine">
+        </div>
+
+        <div class="hovered5">
+          <img src="assets/coffeemachine-hovered.png" class="coffeemachine-hovered">
+        </div>
+      </div>
+
+
+
+    </div>
+  </section>
+
+
+  <script type="text/javascript">
+
+    function PlaySound(soundobj) {
+      var thissound = document.getElementById(soundobj);
+      thissound.play();
+    }
+
+    function StopSound(soundobj) {
+      var thissound = document.getElementById(soundobj);
+      thissound.pause();
+      thissound.currentTime = 0;
+    }
+
+  </script>
+
+
+</body>
+</html>

@@ -1,0 +1,253 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  background-color: #768E99;
+}
+
+.main-content {
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+    position: relative;
+}
+
+/* .main-image{
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+  height: 100%;
+} */
+
+.base {
+  display: block;
+  margin:auto;
+  padding-top: 3%;
+}
+
+
+
+/* COFFEE BEANS */
+.coffeebeanbags {
+  position: absolute;
+  top: 110px;
+  left: 480px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.coffeebeanbags-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 90px;
+  left: 460px;
+}
+.image-container:hover .coffeebeanbags {
+  opacity: 0;
+}
+.image-container:hover .coffeebeanbags-hovered {
+  opacity: 1;
+}
+/* COFFEE BEANS */
+
+
+
+/* CUPS */
+.cups {
+  position: absolute;
+  top: 530px;
+  left: 710px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.cups-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 520px;
+  left: 710px;
+}
+.image-container2:hover .cups {
+  opacity: 0;
+}
+.image-container2:hover .cups-hovered {
+  opacity: 1;
+}
+/* CUPS */
+
+
+
+
+
+/* SMALL ITEMS */
+.smallitems {
+  position: absolute;
+  top: 380px;
+  left: 860px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.smallitems-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 350px;
+  left: 850px;
+}
+.image-container3:hover .smallitems {
+  opacity: 0;
+}
+.image-container3:hover .smallitems-hovered {
+  opacity: 1;
+}
+/* SMALL ITEMS */
+
+
+
+/* SIDEWALK SIGN */
+.sidewalksign {
+  position: absolute;
+  top: 400px;
+  left: 100px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.sidewalksign-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 400px;
+  left: 100px;
+}
+.image-container4:hover .sidewalksign {
+  opacity: 0;
+}
+.image-container4:hover .sidewalksign-hovered {
+  opacity: 1;
+}
+/* SIDEWALK SIGN */
+
+
+
+/* REGISTER */
+.register {
+  position: absolute;
+  top: 470px;
+  left: 450px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.register-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 450px;
+  left: 430px;
+}
+.image-container5:hover .register {
+  opacity: 0;
+}
+.image-container5:hover .register-hovered {
+  opacity: 1;
+}
+/* REGISTER */
+
+
+
+/* GATE */
+.gate {
+  position: absolute;
+  top: 700px;
+  left: 1140px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.gate-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 660px;
+  left: 1100px;
+}
+.image-container6:hover .gate {
+  opacity: 0;
+}
+.image-container6:hover .gate-hovered {
+  opacity: 1;
+}
+/* GATE */
+
+
+
+
+/* BIRD */
+.bird {
+  position: absolute;
+  top: 460px;
+  left: 540px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.bird-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 450px;
+  left: 530px;
+}
+.image-container7:hover .bird {
+  opacity: 0;
+}
+.image-container7:hover .bird-hovered {
+  opacity: 1;
+}
+/* BIRD */
+
+
+
+/* COFFEE MACHINE */
+.coffeemachine {
+  position: absolute;
+  top: 220px;
+  left: 600px;
+  z-index: 2;
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+.coffeemachine-hovered {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 200px;
+  left: 580px;
+}
+.image-container8:hover .coffeemachine {
+  opacity: 0;
+}
+.image-container8:hover .coffeemachine-hovered {
+  opacity: 1;
+}
+/* COFFEE MACHINE */
