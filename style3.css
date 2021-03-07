@@ -1,0 +1,24 @@
+
+#sprite-image2 {
+  height: 353px;
+  width: 717px;
+  margin: 0 auto;
+  background: url("assets/cups-sprite.png");
+  animation: play 1s steps(2) infinite;
+}
+
+@keyframes play {
+  100% {
+    background-position: -1433px;
+  }
+}
+
+.sprite-row2 {
+  position: absolute;
+  left: 40%;
+  top: 55%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}

@@ -59,12 +59,14 @@
           <source src="assets/machine.ogg"></source>
           Audio not supported on browser
         </audio>
-        <audio id="background-sounds" autoplay loop>
+
+        <!-- <iframe src="assets/silence.mp3" allow="autoplay" id="audio" style="display: none"></iframe> -->
+        <audio id="background-sounds" type="audio/mp3" loop="true" autoplay="true">
           <source src="assets/backgroundjazz.mp3"></source>
           <source src="assets/backgroundjazz.ogg"></source>
           Audio not supported on browser
         </audio>
-        <audio id="background-sounds" autoplay loop>
+        <audio id="background-sounds" type="audio/mp3" loop="true" autoplay="true">
           <source src="assets/backgroundnoise.mp3"></source>
           <source src="assets/backgroundnoise.ogg"></source>
           Audio not supported on browser
@@ -82,7 +84,7 @@
 
       <div class="image-container2">
         <div class="base-image">
-          <img onmouseover="PlaySound('cup-on-tabletop')" onmouseout="StopSound('cup-on-tabletop')" src="assets/cups.png" class="cups">
+          <a href="cupofcoffee.html"><img onmouseover="PlaySound('cup-on-tabletop')" onmouseout="StopSound('cup-on-tabletop')" src="assets/cups.png" class="cups"></a>
         </div>
 
         <div class="hovered2">
@@ -102,7 +104,7 @@
 
       <div class="image-container4">
         <div class="base-image">
-          <img onmouseover="PlaySound('sidewalk-sign-tap-writing')" onmouseout="StopSound('sidewalk-sign-tap-writing')" src="assets/sidewalksign.png" class="sidewalksign">
+          <a href="coffeeoftheday.html"><img onmouseover="PlaySound('sidewalk-sign-tap-writing')" onmouseout="StopSound('sidewalk-sign-tap-writing')" src="assets/sidewalksign.png" class="sidewalksign"></a>
         </div>
 
         <div class="hovered4">
@@ -141,7 +143,7 @@
 
       <div class="image-container8">
         <div class="base-image">
-          <img onmouseover="PlaySound('espresso-machine')" onmouseout="StopSound('espresso-machine')" src="assets/coffeemachine.png" class="coffeemachine">
+          <a href="espressomachine.html"><img onmouseover="PlaySound('espresso-machine')" onmouseout="StopSound('espresso-machine')" src="assets/coffeemachine.png" class="coffeemachine"></a>
         </div>
 
         <div class="hovered5">
@@ -153,6 +155,10 @@
 
     </div>
   </section>
+
+  <footer class="footer-note">
+    <p>hello!  welcome to the virtual cafe!  feel free to hover over random objects to hear sounds.  to delve further into other pages, click on objects that have stroke.</p>
+  </footer>
 
 
   <script type="text/javascript">
@@ -167,6 +173,18 @@
       thissound.pause();
       thissound.currentTime = 0;
     }
+
+    // window.onload=function(){
+    //   document.getElementById("background-sounds").play();
+    // }
+
+
+    // var audio = new Audio("assets/backgroundjazz.mp3");
+    //
+    //   document.onclick = function() {
+    //     audio.play();
+    //   }
+    //
 
   </script>
 

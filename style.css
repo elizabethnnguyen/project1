@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+
 html, body {
   width: 100%;
   height: 100%;
@@ -8,7 +10,7 @@ html, body {
 .main-content {
     margin-left:auto;
     margin-right:auto;
-    width:960px;
+    width:1500px;
     position: relative;
 }
 
@@ -30,7 +32,7 @@ html, body {
 /* COFFEE BEANS */
 .coffeebeanbags {
   position: absolute;
-  top: 110px;
+  top: 130px;
   left: 480px;
   z-index: 2;
   opacity: 1;
@@ -42,7 +44,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 90px;
+  top: 110px;
   left: 460px;
 }
 .image-container:hover .coffeebeanbags {
@@ -58,7 +60,7 @@ html, body {
 /* CUPS */
 .cups {
   position: absolute;
-  top: 530px;
+  top: 550px;
   left: 710px;
   z-index: 2;
   opacity: 1;
@@ -70,7 +72,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 520px;
+  top: 540px;
   left: 710px;
 }
 .image-container2:hover .cups {
@@ -88,7 +90,7 @@ html, body {
 /* SMALL ITEMS */
 .smallitems {
   position: absolute;
-  top: 380px;
+  top: 400px;
   left: 860px;
   z-index: 2;
   opacity: 1;
@@ -100,7 +102,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 350px;
+  top: 370px;
   left: 850px;
 }
 .image-container3:hover .smallitems {
@@ -116,7 +118,7 @@ html, body {
 /* SIDEWALK SIGN */
 .sidewalksign {
   position: absolute;
-  top: 400px;
+  top: 420px;
   left: 100px;
   z-index: 2;
   opacity: 1;
@@ -128,7 +130,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 400px;
+  top: 420px;
   left: 100px;
 }
 .image-container4:hover .sidewalksign {
@@ -144,7 +146,7 @@ html, body {
 /* REGISTER */
 .register {
   position: absolute;
-  top: 470px;
+  top: 490px;
   left: 450px;
   z-index: 2;
   opacity: 1;
@@ -156,7 +158,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 450px;
+  top: 470px;
   left: 430px;
 }
 .image-container5:hover .register {
@@ -172,7 +174,7 @@ html, body {
 /* GATE */
 .gate {
   position: absolute;
-  top: 700px;
+  top: 720px;
   left: 1140px;
   z-index: 2;
   opacity: 1;
@@ -184,7 +186,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 660px;
+  top: 680px;
   left: 1100px;
 }
 .image-container6:hover .gate {
@@ -201,7 +203,7 @@ html, body {
 /* BIRD */
 .bird {
   position: absolute;
-  top: 460px;
+  top: 480px;
   left: 540px;
   z-index: 2;
   opacity: 1;
@@ -213,7 +215,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 450px;
+  top: 470px;
   left: 530px;
 }
 .image-container7:hover .bird {
@@ -229,7 +231,7 @@ html, body {
 /* COFFEE MACHINE */
 .coffeemachine {
   position: absolute;
-  top: 220px;
+  top: 240px;
   left: 600px;
   z-index: 2;
   opacity: 1;
@@ -241,7 +243,7 @@ html, body {
   transition: .5s ease;
   opacity: 0;
   position: absolute;
-  top: 200px;
+  top: 220px;
   left: 580px;
 }
 .image-container8:hover .coffeemachine {
@@ -251,3 +253,16 @@ html, body {
   opacity: 1;
 }
 /* COFFEE MACHINE */
+
+
+
+
+.footer-note {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-family: 'Amatic SC', cursive;
+  font-size: 40px;
+}
