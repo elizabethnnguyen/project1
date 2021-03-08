@@ -1,2 +1,7 @@
 # virtualcafe.github.io
 ART 109 - Project1
+
+
+The Virtual Cafe is a website that emulates the atmosphere of being in a coffee shop. Since last year, we were all in the midst of a pandemic and therefore, instructed to quarantine at home for some time. For the months that followed, I had began feeling antsy and realized how much I missed going out in public areas, many of which were coffee and tea shops. I was reminded how relaxed I always felt whenever I visited these places. I was content with staying at these cafes for hours working or reading. 
+
+When the prompt for this project risen, I was immediately inspired to create a web page that can emulate that feeling of being in a coffee shop. Since our memories are strongly affected by sound, I wanted to make sure to emphasize that in this piece. I added certain assets where you can hover over it and it would mimic the actual sound that it represents. For example, hovering over the shelf of coffee beans will trigger the sound of coffee beans shaking. Additionally, there are three other linked pages that can be navigated by clicking on the assets with a black outline around them (stroke). These will lead to pages that are very general and discuss anything coffee related. And finally, I added background music and sound that imitate the sounds you'd hear in a coffee shop, including jazz music, people chattering, glass tableware clinking, espresso machines running, etc. 
